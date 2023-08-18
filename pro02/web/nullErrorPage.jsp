@@ -7,7 +7,6 @@
     <title>Title</title>
 </head>
 <body>
-<p>NullPointerException 에러 페이지</p>
 
 </body>
 </html>

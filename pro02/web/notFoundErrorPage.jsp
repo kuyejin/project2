@@ -7,6 +7,6 @@
     <title>Title</title>
 </head>
 <body>
-<p>404 에러 페이지</p>
+
 </body>
 </html>

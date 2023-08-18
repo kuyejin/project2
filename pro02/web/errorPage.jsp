@@ -7,6 +7,6 @@
     <title>Title</title>
 </head>
 <body>
-<p>Exception 에러 페이지</p>
+
 </body>
 </html>
