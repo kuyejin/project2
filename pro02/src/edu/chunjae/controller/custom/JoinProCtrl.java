@@ -48,6 +48,8 @@ public class JoinProCtrl extends HttpServlet {
         user.setBirth(birth);
         suc = dao.addCustom(user);
 
+        System.out.println(request.getContextPath());
+
         if(suc>0){
             response.sendRedirect(request.getContextPath());
         } else {

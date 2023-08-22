@@ -10,12 +10,15 @@ public class Delivery {
     private String pcom;//배송회사
     private String ptel;//배송기사연락처
     private int pstate;// 배송상태(0:배송전, 1:배송중,2:도착, 3:구매결정)
+
+    private String sdate;
+    private String rdate;
     private String bcode;//화물코드
 
 
     public Delivery(){};
 
-    public Delivery(int dno, int sno, String cid, String daddr, String custel, String pcom, String ptel, int pstate, String bcode) {
+    public Delivery(int dno, int sno, String cid, String daddr, String custel, String pcom, String ptel, int pstate, String sdate, String rdate, String bcode) {
         this.dno = dno;
         this.sno = sno;
         this.cid = cid;
@@ -24,9 +27,10 @@ public class Delivery {
         this.pcom = pcom;
         this.ptel = ptel;
         this.pstate = pstate;
+        this.sdate = sdate;
+        this.rdate = rdate;
         this.bcode = bcode;
     }
-
 
     public int getDno() {
         return dno;
@@ -92,6 +96,22 @@ public class Delivery {
         this.pstate = pstate;
     }
 
+    public String getSdate() {
+        return sdate;
+    }
+
+    public void setSdate(String sdate) {
+        this.sdate = sdate;
+    }
+
+    public String getRdate() {
+        return rdate;
+    }
+
+    public void setRdate(String rdate) {
+        this.rdate = rdate;
+    }
+
     public String getBcode() {
         return bcode;
     }
@@ -99,7 +119,6 @@ public class Delivery {
     public void setBcode(String bcode) {
         this.bcode = bcode;
     }
-
 
     @Override
     public String toString() {
@@ -112,6 +131,8 @@ public class Delivery {
                 ", pcom='" + pcom + '\'' +
                 ", ptel='" + ptel + '\'' +
                 ", pstate=" + pstate +
+                ", sdate='" + sdate + '\'' +
+                ", rdate='" + rdate + '\'' +
                 ", bcode='" + bcode + '\'' +
                 '}';
     }
