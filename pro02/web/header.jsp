@@ -35,7 +35,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">ETC</a>
+                            <a class="nav-link" href="${path1 }/FileUploadTest.do">파일 업로드</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="${path1 }/FileUploadTest2.do">파일 업로드2</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -52,7 +55,7 @@
                         </c:if>
                         <c:if test="${empty sid }">
                             <li class="nav-item"><a href="${path1 }/Login.do" class="nav-link">Login</a></li>
-                            <li class="nav-item"><a href="${path1 }/Join.do" class="nav-link">Join</a></li>
+                            <li class="nav-item"><a href="${path1 }/Term.do" class="nav-link">Join</a></li>
                             <li class="nav-item"><a href="${path1 }/Contact.do" class="nav-link">Contact US</a></li>
                         </c:if>
                     </ul>

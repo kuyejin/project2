@@ -13,12 +13,52 @@ public interface DBConnect {
 
     final static String CUSTOM_SELECT_ALL = "select * from custom order by regdate desc";
     final static String CUSTOM_SELECT_ONE = "select * from custom where id=?";
-    final static String CUSTOM_SELECT_LOG = "select * from custom where id=? and pw=?";
-    final static String CUSTOM_INSERT = "insert into custom values (?,?,?,default,default,?,?,?,default)";
+    final static String CUSTOM_SELECT_LOG = "select * from custom where id=?";
+    final static String CUSTOM_INSERT = "insert into custom values (?,?,?,default,default,?,?,?,default,?)";
     final static String CUSTOM_UPDATE = "update custom set pw=?,tel=?,email=? where id=?";
     final static String CUSTOM_DELETE = "delete from custom where id=?";
 
+    /*PRODUCT*/
+    final static String PRODUCT_SELECT_ALL = "select * from product order by pno";
+    final static String PRODUCT_SELECT_ONE = "select * from product where pno=?";
+    final static String PRODUCT_INSERT = "insert into product values(default, ?, '', ?, ?, ?, ?, ?, ?, ?, default)";
+    final static String PRODUCT_INSERT_UPDATE = "update product set prono = concat(cate, pno) where pno in(select pno from product order by resdate desc limit 1)";
+    final static String PRODUCT_UPDATE = "update product set pname=?, cate=?, pcomment=?, plist=?,price=?, imgsrc1=?, imgsrc2=?, imgsrc3=? where pno=?";
+    final static String PRODUCT_DELETE = "delete from product where pno=?";
+
+
+    //입고 처리 패턴
+    final static String PRODUCT_RECEIVE = "insert into receive values (default, ?, ?, ?, default)";
+    final static String CATEGORY_LOAD = "select * from category";
+
+    //출고 처리 패턴
+    final static String SERVE_PAYMENT = "insert into payment values (default, ?, ?, ?, ?, ?, ?, ?, '')";
+    final static String SERVE_INSERT = "insert into serve values(default, ?, ?, ?, default)";
+    final static String DELIVERY_INSERT = "insert into delivery values (default, ?, ?, ?, ?, '','',default,default,'','')";
+    final static String CART_DELETE = "delete from cart where cartno=?";
+
+
+    //반품처리 패턴
+    final static String RECEIVE_PAYMENT = "delete from payment where sno=?";
+    final static String RETURN_RECEIVE = "insert into receive values (default, ?, ?, ?, default)";
+    final static String RETURN_SERVE = "delete from serve where sno=?";
+    final static String RETURN_CART = "insert into cart values (default, ?, ?, ?)";
+    final static String RETURN_DELIVERY = "delete from delivery where sno=?";
+
+
+    //배송 등록
+    final static String DELIVERY_PRO = "update delivery set pcom=?, ptel=?, pstate=1,sdate=current_timestamp, rdate=?, bcode=? where dno=?";
+
+
+    //배송 처리
+    final static String DELIVERY_COMPLETE = "update delivery set pstate=2 where dno=?";
+
+    //배송 완료
+    final static String INVENTION_SELECT_ONE = "select * from inventory";
+
     public Connection connect();
+
     public void close(PreparedStatement pstmt, Connection conn);
+
     public void close(ResultSet rs, PreparedStatement pstmt, Connection conn);
 }
