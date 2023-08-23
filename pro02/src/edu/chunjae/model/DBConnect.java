@@ -20,6 +20,8 @@ public interface DBConnect {
 
     /*PRODUCT*/
     final static String PRODUCT_SELECT_ALL = "select * from product order by pno";
+
+    final static String PRODUCT_SELECT_CATE = "select * from product order by pno";
     final static String PRODUCT_SELECT_ONE = "select * from product where pno=?";
     final static String PRODUCT_INSERT = "insert into product values(default, ?, '', ?, ?, ?, ?, ?, ?, ?, default)";
     final static String PRODUCT_INSERT_UPDATE = "update product set prono = concat(cate, pno) where pno in(select pno from product order by resdate desc limit 1)";
@@ -36,6 +38,7 @@ public interface DBConnect {
     final static String SERVE_INSERT = "insert into serve values(default, ?, ?, ?, default)";
     final static String DELIVERY_INSERT = "insert into delivery values (default, ?, ?, ?, ?, '','',default,default,'','')";
     final static String CART_DELETE = "delete from cart where cartno=?";
+    final static String GET_SNO = "select sno from payment order by sno desc limit 1";
 
 
     //반품처리 패턴

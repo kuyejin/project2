@@ -7,13 +7,13 @@ public class Payment {
     private int amount; //구매수량
     private String pmethod; //결제수단
     private String pcome; //카드 대행사
-    private int cnum; //결제카드(계좌)번호
+    private String cnum; //결제카드(계좌)번호
     private int payprice; //결제금액
     private String dno; //배송코드
 
     public Payment(){};
 
-    public Payment(int sno, String cid, int pno, int amount, String pmethod, String pcome, int cnum, int payprice, String dno) {
+    public Payment(int sno, String cid, int pno, int amount, String pmethod, String pcome, String cnum, int payprice, String dno) {
         this.sno = sno;
         this.cid = cid;
         this.pno = pno;
@@ -73,11 +73,11 @@ public class Payment {
         this.pcome = pcome;
     }
 
-    public int getCnum() {
+    public String getCnum() {
         return cnum;
     }
 
-    public void setCnum(int cnum) {
+    public void setCnum(String cnum) {
         this.cnum = cnum;
     }
 

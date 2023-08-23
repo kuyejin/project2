@@ -17,10 +17,13 @@
                                 상품
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="${path1 }/ProList.do">교과서</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/CateProList.do?cate=A">초등 교과서</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/CateProList.do?cate=B">초등 참고서</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/CateProList.do?cate=C">초등 참고서</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/CateProList.do?cate=D">초등 기타</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">참고서</a></li>
-                                <li><a class="dropdown-item" href="#">문제집</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/ProList.do">참고서</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/ProList.do">문제집</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
