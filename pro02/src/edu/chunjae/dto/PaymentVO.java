@@ -1,6 +1,6 @@
 package edu.chunjae.dto;
 //결제
-public class Payment {
+public class PaymentVO {
     private int sno;	        //(auto)결제번호
     private String cid;         //고객아이디
     private int pno;            //상품번호
@@ -10,6 +10,14 @@ public class Payment {
     private String cnum;		//+결제카드(계좌)번호
     private int payprice;		//+결제금액
     private String dno;            //배송코드
+    private String pname;           //상품명
+
+    private int pstate; //배송상태
+
+
+
+    public PaymentVO(){};
+
 
     public int getSno() {
         return sno;
@@ -83,9 +91,25 @@ public class Payment {
         this.cid = cid;
     }
 
+    public String getPname() {
+        return pname;
+    }
+
+    public void setPname(String pname) {
+        this.pname = pname;
+    }
+
+    public int getPstate() {
+        return pstate;
+    }
+
+    public void setPstate(int pstate) {
+        this.pstate = pstate;
+    }
+
     @Override
     public String toString() {
-        return "Payment{" +
+        return "PaymentVO{" +
                 "sno=" + sno +
                 ", cid='" + cid + '\'' +
                 ", pno=" + pno +
@@ -94,7 +118,9 @@ public class Payment {
                 ", pcom='" + pcom + '\'' +
                 ", cnum='" + cnum + '\'' +
                 ", payprice=" + payprice +
-                ", dno=" + dno +
+                ", dno='" + dno + '\'' +
+                ", pname='" + pname + '\'' +
+                ", pstate=" + pstate +
                 '}';
     }
 }

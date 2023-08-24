@@ -1,36 +1,17 @@
 package edu.chunjae.dto;
-
+//배송
 public class Delivery {
-
-    private int dno; //배송코드
-    private int sno;//결제번호
-    private String cid;//고객하이지
-    private String daddr;//배송지
-    private String custel;//고객연락처
-    private String pcom;//배송회사
-    private String ptel;//배송기사연락처
-    private int pstate;// 배송상태(0:배송전, 1:배송중,2:도착, 3:구매결정)
-
+    private int dno;	//(auto)배송코드
+    private int sno;    //결제번호
+    private String cid; //고객아이디
+    private String daddr;	//+배송지
+    private String custel;		//+고객연락처
+    private String pcom; //(admin)배송회사
+    private String ptel;	//(admin)배송기사연락처
+    private int pstate;	//(0:배송전,1:배송중,2:도착,3:구매결정)-배송상태
     private String sdate;
     private String rdate;
-    private String bcode;//화물코드
-
-
-    public Delivery(){};
-
-    public Delivery(int dno, int sno, String cid, String daddr, String custel, String pcom, String ptel, int pstate, String sdate, String rdate, String bcode) {
-        this.dno = dno;
-        this.sno = sno;
-        this.cid = cid;
-        this.daddr = daddr;
-        this.custel = custel;
-        this.pcom = pcom;
-        this.ptel = ptel;
-        this.pstate = pstate;
-        this.sdate = sdate;
-        this.rdate = rdate;
-        this.bcode = bcode;
-    }
+    private String bcode;	//화물코드
 
     public int getDno() {
         return dno;
@@ -38,6 +19,22 @@ public class Delivery {
 
     public void setDno(int dno) {
         this.dno = dno;
+    }
+
+    public String getSdate() {
+        return sdate;
+    }
+
+    public void setSdate(String sdate) {
+        this.sdate = sdate;
+    }
+
+    public String getRdate() {
+        return rdate;
+    }
+
+    public void setRdate(String rdate) {
+        this.rdate = rdate;
     }
 
     public int getSno() {
@@ -96,22 +93,6 @@ public class Delivery {
         this.pstate = pstate;
     }
 
-    public String getSdate() {
-        return sdate;
-    }
-
-    public void setSdate(String sdate) {
-        this.sdate = sdate;
-    }
-
-    public String getRdate() {
-        return rdate;
-    }
-
-    public void setRdate(String rdate) {
-        this.rdate = rdate;
-    }
-
     public String getBcode() {
         return bcode;
     }
@@ -131,8 +112,8 @@ public class Delivery {
                 ", pcom='" + pcom + '\'' +
                 ", ptel='" + ptel + '\'' +
                 ", pstate=" + pstate +
-                ", sdate='" + sdate + '\'' +
-                ", rdate='" + rdate + '\'' +
+                ", sdate=" + sdate +
+                ", rdate=" + rdate +
                 ", bcode='" + bcode + '\'' +
                 '}';
     }

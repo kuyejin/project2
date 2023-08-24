@@ -1,19 +1,10 @@
 package edu.chunjae.dto;
 
 public class Cart {
-    private int cartno; //카트번호
-    private String cid; //고객아이디
-    private int pno; //제품번호
-    private int amount; //제품수량
-
-    public Cart(){};
-
-    public Cart(int cartno, String cid, int pno, int amount) {
-        this.cartno = cartno;
-        this.cid = cid;
-        this.pno = pno;
-        this.amount = amount;
-    }
+    private int cartno;     //카트번호
+    private String cid;     //고객아이디
+    private int pno;        //제품번호
+    private int amount;     //제품수량
 
     public int getCartno() {
         return cartno;

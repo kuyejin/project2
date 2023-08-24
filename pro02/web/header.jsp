@@ -22,8 +22,8 @@
                                 <li><a class="dropdown-item" href="${path1 }/CateProList.do?cate=C">초등 참고서</a></li>
                                 <li><a class="dropdown-item" href="${path1 }/CateProList.do?cate=D">초등 기타</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="${path1 }/ProList.do">참고서</a></li>
-                                <li><a class="dropdown-item" href="${path1 }/ProList.do">문제집</a></li>
+                                <li><a class="dropdown-item" href="${path1 }/ProList.do">전체</a></li>
+                                <li><a class="dropdown-item" href="#">문제집</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -49,10 +49,11 @@
                     </ul>
                     <ul class="nav justify-content-end">
                         <c:if test="${sid eq 'admin' }">
-                            <li class="nav-item"><a href="${path1 }/AdminNoticeList.do" class="nav-link">Admin Notice</a></li>
+                            <li class="nav-item"><a href="${path1 }/Admin.do" class="nav-link">Admin</a></li>
                         </c:if>
                         <c:if test="${!empty sid }">
                             <li class="nav-item"><a href="${path1 }/Mypage.do" class="nav-link">Mypage</a></li>
+                            <li class="nav-item"><a href="${path1 }/PaymentList.do" class="nav-link">PayList</a></li>
                             <li class="nav-item"><a href="${path1 }/Logout.do" class="nav-link">Logout</a></li>
                             <li class="nav-item"><a href="${path1 }/Contact.do" class="nav-link">Contact US</a></li>
                         </c:if>

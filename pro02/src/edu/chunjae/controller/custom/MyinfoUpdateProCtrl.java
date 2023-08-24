@@ -6,7 +6,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet("/MyInfoUpdatePro.do")
-public class MyinfoUpdateProCtrl extends HttpServlet {
+public class MyInfoUpdateProCtrl extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

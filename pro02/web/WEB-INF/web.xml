@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <display-name>pro02</display-name>
+    <display-name>/pro02</display-name>
     <servlet>
         <servlet-name>chunjae</servlet-name>
         <servlet-class>edu.chunjae.controller.Main</servlet-class>
@@ -39,7 +39,7 @@
         <url-pattern>*.wav</url-pattern>
         <url-pattern>*.webm</url-pattern>
     </servlet-mapping>
-    <error-page>
+   <!-- <error-page>
         <error-code>403</error-code>
         <location>/forbiddenErrorPage.jsp</location>
     </error-page>
@@ -62,5 +62,5 @@
     <error-page>
         <exception-type>java.lang.Exception</exception-type>
         <location>/errorPage.jsp</location>
-    </error-page>
+    </error-page>-->
 </web-app>

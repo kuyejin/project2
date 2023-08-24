@@ -1,21 +1,12 @@
 package edu.chunjae.dto;
 
+//출고
 public class Serve {
-    private int sno;
-    private int pno;
-    private int amount;
-    private int sprice;
-    private String resdate;
-
-    public Serve(){};
-
-    public Serve(int sno, int pno, int amount, int sprice, String resdate) {
-        this.sno = sno;
-        this.pno = pno;
-        this.amount = amount;
-        this.sprice = sprice;
-        this.resdate = resdate;
-    }
+    private int sno;        //출고 번호
+    private int pno;        //출고 제품번호
+    private int amount;     //출고량
+    private int sprice;     //출고 가격
+    private String resdate; //출고일
 
     public int getSno() {
         return sno;

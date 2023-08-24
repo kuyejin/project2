@@ -1,21 +1,11 @@
 package edu.chunjae.dto;
-
+//입고
 public class Receive {
-    private int rno; //입고번호(aute)
-    private int pno; //입고 제품번호
-    private int amount; // 입고수량
-    private int rprice; //입고가격
+    private int rno;         //입고번호(auto)
+    private int pno;        //입고 제품번호
+    private int amount;     //입고수량
+    private int rprice;     //입고가격
     private String resdate; //입고일
-
-    public Receive(){};
-
-    public Receive(int rno, int pno, int amount, int rprice, String resdate) {
-        this.rno = rno;
-        this.pno = pno;
-        this.amount = amount;
-        this.rprice = rprice;
-        this.resdate = resdate;
-    }
 
     public int getRno() {
         return rno;

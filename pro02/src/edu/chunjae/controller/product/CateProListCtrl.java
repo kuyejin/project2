@@ -18,16 +18,19 @@ public class CateProListCtrl extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("msg", "상품 리스트를 출력합니다.");
 
-        String cate ="";
+        String cate = "";
 
         ProductDAO dao = new ProductDAO();
         List<Product> proList;
 
         if(request.getParameter("cate")==""){
             proList = dao.getProductList();
-        }else {
-
+        } else {
+            cate = request.getParameter("cate");
+            proList = dao.getCateProductList(cate);
         }
+
+        request.setAttribute("proList", proList);
         RequestDispatcher view = request.getRequestDispatcher("/product/proList.jsp");
         view.forward(request, response);
     }

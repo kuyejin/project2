@@ -1,33 +1,17 @@
 package edu.chunjae.dto;
-
+//상품
 public class Product {
-    private int pno; //상품번호(auto);
-    private String cate; //카테고리
-    private int prono; //카테고리 번호 + 상품번호
-    private String pname; //상품명
-    private String pcomment; //상품설명
-    private String plist; //상품목차
-    private int price; //상품단가
-    private String imgSrc1; //상품이미지1
-    private String imgSrc2; //상품이미지2
-    private String imgSrc3; //상품이미지3
-    private String resdate; //등록일
-
-    public Product(){};
-
-    public Product(int pno, String cate, int prono, String pname, String pcomment, String plist, int price, String imgSrc1, String imgSrc2, String imgSrc3, String resdate) {
-        this.pno = pno;
-        this.cate = cate;
-        this.prono = prono;
-        this.pname = pname;
-        this.pcomment = pcomment;
-        this.plist = plist;
-        this.price = price;
-        this.imgSrc1 = imgSrc1;
-        this.imgSrc2 = imgSrc2;
-        this.imgSrc3 = imgSrc3;
-        this.resdate = resdate;
-    }
+    private int pno;         //상품번호(auto)
+    private String cate;    //카테고리
+    private String prono;   //카테고리번호+상품번호
+    private String pname;   //상품명
+    private String pcomment;    //상품설명
+    private String plist;       //상품목차
+    private int price;          //상품단가
+    private String imgSrc1;     //상품이미지1
+    private String imgSrc2;     //상품이미지2
+    private String imgSrc3;     //상품이미지3
+    private String resdate;     //등록일
 
     public int getPno() {
         return pno;
@@ -45,11 +29,11 @@ public class Product {
         this.cate = cate;
     }
 
-    public int getProno() {
+    public String getProno() {
         return prono;
     }
 
-    public void setProno(int prono) {
+    public void setProno(String prono) {
         this.prono = prono;
     }
 
@@ -122,7 +106,7 @@ public class Product {
         return "Product{" +
                 "pno=" + pno +
                 ", cate='" + cate + '\'' +
-                ", prono=" + prono +
+                ", prono='" + prono + '\'' +
                 ", pname='" + pname + '\'' +
                 ", pcomment='" + pcomment + '\'' +
                 ", plist='" + plist + '\'' +

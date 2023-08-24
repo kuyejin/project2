@@ -24,9 +24,9 @@
             #tb1 { width:960px; margin:40px auto; }
             #tb1 th { background-color: #111; color:#fff; }
             .item1 { width:10%; }
-            .item2 { width:70%; }
-            .item3 { width:10%; }
-            .item4 { width:10%; }
+            .item2 { width:20%; }
+            .item3 { width:55%; }
+            .item4 { width:15%; }
             #page-nation1 { width: 960px; margin:20px auto; }
         </style>
     </head>
@@ -64,7 +64,7 @@
                     </ol>
                 </div>
             </nav>
-            <h2 class="title">공지사항 목록</h2>
+            <h2 class="title">결제 목록</h2>
             <p class="msg">${msg }</p>
             <div class="container">
                 <div class="box_wrap">
@@ -72,31 +72,39 @@
                         <thead>
                         <tr>
                             <th class="item1">연번</th>
-                            <th class="item2">제목</th>
+                            <th class="item2">결제정보</th>
                             <th class="item3">작성일</th>
+                            <th class="item4">작성일</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <c:forEach var="noti" items="${notiList }" varStatus="status">
+                        <c:forEach var="noti" items="${payList }" varStatus="status">
                             <tr>
                                 <td class="item1">${status.count }</td>
                                 <td class="item2">
-                                    <a href="${path }/Notice.do?no=${noti.no }">${noti.title }</a>
+                                    <span title="${pay.pno}">${pay.pname }</span>
+
                                 </td>
-                                <td class="item3">${noti.resdate }</td>
+                                <p>구매 수량 : ${pay.amount}</p>
+                                <p>결제 방법 : ${pay.pmethod}</p>
+                                <p>결제 대행 : ${pay.pcom}</p>
+                                <p>카드 번호 : ${pay.cnum}</p>
+                                <p>결제 금액 : ${pay.payprice}</p>
+                                </td>
+
+                                <td class="item4">
+                                    <c:if test="${pay.pstate==0}">
+                                        <a href="${path }/ReturnPayment.do?sno=${pay.sno}">반품요청</a>
+                                    </c:if>
+                                </td>
                             </tr>
                         </c:forEach>
+                        <c:if test="${empty payList}">
+                            <td colspan="4">결제된 상품이 존재하지 않습니다.</td>
+                        </c:if>
                         </tbody>
                     </table>
-                    <nav aria-label="Page navigation example" id="page-nation1">
-                        <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                        </ul>
-                    </nav>
+
                 </div>
             </div>
         </div>

@@ -1,21 +1,11 @@
 package edu.chunjae.dto;
 //상품 부가 정보
 public class AddInfo {
-    private int ano; // 콘텐츠 번호
-    private int pno; //해당 상품번호
+    private int ano;        //콘텐츠 번호
+    private int pno;        //해당 상품번호
     private String title;   //콘텐츠 제목
-    private String movie; //콘텐츠 url
-    private String resdate;
-
-    public AddInfo(){};
-
-    public AddInfo(int ano, int pno, String title, String movie, String resdate) {
-        this.ano = ano;
-        this.pno = pno;
-        this.title = title;
-        this.movie = movie;
-        this.resdate = resdate;
-    }
+    private String movie;   //콘텐츠 url
+    private String resdate; //콘텐츠 등록일
 
     public int getAno() {
         return ano;
