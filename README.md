@@ -1,13 +1,13 @@
 
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;천재교육 풀스택 과정 2차 프로젝트 
-
-![bg_001](https://github.com/kuyejin/project1/assets/65212187/f39cc81a-69f1-41b5-91da-d931e07586b7)
-
-
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![logo](https://github.com/kuyejin/project2/assets/65212187/1651e951-5f94-424f-9b8d-aa33298aecad)
+<br/><br/>
 
 # 📂 프로젝트 소개 
 
-안녕하세요! **teenTalk**은 '학생 및 교사 전용 커뮤니티 사이트입니다.  
+안녕하세요! **teenBook**은 '학생 및 교사 전용 커뮤니티 사이트입니다.  
 이 곳은 서로의 경험, 관심사, 의견을 공유하며 함께 성장하고 배우는 공간을 제공합니다.
 
  학생들과 교사들이 협력하고 소통하며
@@ -15,7 +15,7 @@
  저희 팀의 기획의도 입니다.  
  <br/> <br/>
  
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔹TEENTALK🔹에 대해 자세히 설명해 드릴게요!
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔹TEENBOOK🔹에 대해 자세히 설명해 드릴게요!
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[🙋‍♀️ CLIKE ME 🙋](https://drive.google.com/file/d/1WbRjYMy-DIlQ-1eMngI_CpnSv7nyZ22p/view?usp=drive_link)
 <br/>
   
@@ -33,7 +33,7 @@
 <br/>
 
 # 🗓 개발일정
-2023.08.01 ~
+![image](https://github.com/kuyejin/project2/assets/65212187/62d66a98-3c91-4d50-83b0-60bf864989e2)
 
 <br/>
 
@@ -84,7 +84,7 @@
 ## 2️⃣ 개념적 설계
 
 ### 🔹유즈케이스 (USE CASE)
-![유즈케이스](https://github.com/kuyejin/project1/assets/65212187/06b63eab-69a5-4a46-a687-ee9504319ed1)
+![usecase](https://github.com/kuyejin/project2/assets/65212187/b54639f8-0869-487b-95c3-02d256adddda)
 
 
 ## 3️⃣ 논리적 설계
@@ -96,19 +96,17 @@
 ![슬라이드6](https://github.com/kuyejin/project1/assets/65212187/be2d5150-d885-412e-b087-6fe975a768f9)
 ![슬라이드7](https://github.com/kuyejin/project1/assets/65212187/2b3693ef-d1d1-4ee6-b94a-5a2a7f320d38)
 ## 4️⃣ 물리적 설계 － ＥＲＤ
-![erd](https://github.com/kuyejin/project1/assets/65212187/ac23429a-2d06-4bdd-9518-ea4de8f3c31a) 
+![ERD(shop)](https://github.com/kuyejin/project2/assets/65212187/684ee9da-6d5a-4863-adc8-479b904db03a)
 
 <br/>
 <br/>
 
 # 📐 클래스 다이어그램
-![classdiagram](https://github.com/kuyejin/project1/assets/65212187/c1264b55-6400-42eb-a12a-e85b775ce4c6)
+![class다이어그램](https://github.com/kuyejin/project2/assets/65212187/c7577e2c-3c6a-4b91-87f6-5a3e8fdc25c9)
 
 <br/>
 
 
-# 📐 시퀀스 다이어그램
-![시퀀스 다이어그램](https://github.com/kuyejin/project1/assets/65212187/bb0d5c21-7482-4c25-8cfc-04ec8bc888f3)
 
 <br/>
 
