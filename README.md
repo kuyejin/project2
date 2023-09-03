@@ -26,10 +26,7 @@
   
 
 # 👤 팀원 소개
-백준철
-신승원
-오세훈
-구예진  
+![image](https://github.com/kuyejin/project2/assets/65212187/d773780d-58f9-4f2f-bbc9-94355ca2b40c) 
 
 <br/>
 
