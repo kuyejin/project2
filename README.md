@@ -86,13 +86,11 @@
 
 
 ## 3️⃣ 논리적 설계
-![슬라이드1](https://github.com/kuyejin/project1/assets/65212187/35d3ae6b-baaa-493a-9717-7024ec0ac7f5)
-![슬라이드2](https://github.com/kuyejin/project1/assets/65212187/5b853237-7dc0-4d07-bf1f-0caff9f5dab9)
-![슬라이드3](https://github.com/kuyejin/project1/assets/65212187/b2d8fc47-08d9-4a4b-8ad0-70d579c0dab7)
-![슬라이드4](https://github.com/kuyejin/project1/assets/65212187/96aef4d4-dd65-419c-801f-cb3a0f925980)
-![슬라이드5](https://github.com/kuyejin/project1/assets/65212187/904508aa-1339-40e3-ab24-a0102b45b9aa)
-![슬라이드6](https://github.com/kuyejin/project1/assets/65212187/be2d5150-d885-412e-b087-6fe975a768f9)
-![슬라이드7](https://github.com/kuyejin/project1/assets/65212187/2b3693ef-d1d1-4ee6-b94a-5a2a7f320d38)
+![image](https://github.com/kuyejin/project2/assets/65212187/273470b1-3e6f-45b8-a44d-a7fda653200b)
+![image](https://github.com/kuyejin/project2/assets/65212187/9d34eac3-a6a9-4b18-b593-0e95923ca0f6)
+![image](https://github.com/kuyejin/project2/assets/65212187/3223fac3-4ab7-4294-b1c0-6894136527fc)
+![image](https://github.com/kuyejin/project2/assets/65212187/75923a7c-7cb5-4c4d-9246-1bce99531779)
+
 ## 4️⃣ 물리적 설계 － ＥＲＤ
 ![ERD(shop)](https://github.com/kuyejin/project2/assets/65212187/684ee9da-6d5a-4863-adc8-479b904db03a)
 
