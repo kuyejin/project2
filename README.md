@@ -24,10 +24,6 @@
 
 
 
-  
-
-# 👤 팀원 소개
-![image](https://github.com/kuyejin/project2/assets/65212187/d773780d-58f9-4f2f-bbc9-94355ca2b40c) 
 
 <br/>
 
@@ -47,7 +43,6 @@
 
 
 
-
 ### 개발환경
 <img  src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> <img  src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 <img  src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
@@ -58,8 +53,7 @@
 
 
 
-#  👨‍👨‍ 협업 방식
-**✔ 언제든 자유롭게 의견내기, 단 강요는 🙅‍♂️**   
+#  👨‍👨‍ 협업 방식 
 
 ✔   [![](https://camo.githubusercontent.com/5f4f9e864500236994df27a0204caec7543b79162b3e45e9edaecc499ad2186d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f74696f6e2d3030303030303f7374796c653d666c61742d726f756e64266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465)](https://www.notion.so/2-61e48e6a682e4d7191fc2993b91b0665)
 &nbsp;&nbsp;**개발에 관련된 모든 자료를 공유하며 과정를 기록합니다.**
