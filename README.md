@@ -136,16 +136,24 @@
 
 🔹footer
 ![04_footer](https://github.com/kuyejin/project2/assets/65212187/a916474e-54b7-47c8-b387-378678b7aedc)
+🔹로그인
 ![05_로그인](https://github.com/kuyejin/project2/assets/65212187/5b955dfe-79d7-4867-beb7-800b55d94721)
+🔹회원가입
 ![06_회원가입](https://github.com/kuyejin/project2/assets/65212187/7de65506-14e7-4c08-96a9-e514be158b39)
+🔹마이페이지
 ![07_마이페이지](https://github.com/kuyejin/project2/assets/65212187/3df43261-deab-45ad-b0bc-2dc98840ed69)
+🔹초등
 ![08_초등](https://github.com/kuyejin/project2/assets/65212187/cabc3923-2006-4275-9889-401235ba5757)
+🔹상품상세
 ![09_상품 상세](https://github.com/kuyejin/project2/assets/65212187/40802809-1d6a-45d8-a88b-4972fe9d2e0d)
+🔹상품 구매
 ![10_상품 구매](https://github.com/kuyejin/project2/assets/65212187/6b9fe231-3d31-4c5c-80b7-05a0667d5d6b)
+🔹관리자 페이지
 ![11_관리자 페이지](https://github.com/kuyejin/project2/assets/65212187/e2172851-db55-4596-a48b-db389fe9e143)
+🔹고객센터
 ![12_고객센터](https://github.com/kuyejin/project2/assets/65212187/bcb8577d-e8ae-48d2-83de-f490154d1879)
+🔹장바구니
 ![13_장바구니](https://github.com/kuyejin/project2/assets/65212187/69f0651d-7d08-443b-b616-a59d671fa569)
-![14_Untitled 3](https://github.com/kuyejin/project2/assets/65212187/a3ea3104-e5e9-4025-b22e-ef3645e13f75)
 
 <br/>
 <br/>
