@@ -70,10 +70,29 @@
 #  📊 데이터베이스 설계
 
 ## 1️⃣ 요구사항 분석
-![슬라이드1](https://github.com/kuyejin/project1/assets/65212187/55be3641-041a-4677-910a-fc34cdf579e4)
-![슬라이드2](https://github.com/kuyejin/project1/assets/65212187/ac3b3d27-b9ef-453f-bf0b-760b0b084832)
-![슬라이드3](https://github.com/kuyejin/project1/assets/65212187/8f76c49e-68b3-4d2d-b1be-4842e110b9f1)
+🔹비회원🔹<br/>
+![비회원_요구분석정의서](https://github.com/kuyejin/project2/assets/65212187/ac63286a-8802-41a0-8277-c995c54d6def)  
 
+🔹회원🔹<br/>
+![회원 - 결제,고객센터](https://github.com/kuyejin/project2/assets/65212187/ab3b25ef-4b36-4ed7-ba79-7f6529a804f8)
+![회원 - 마이페이지 (장바구니)](https://github.com/kuyejin/project2/assets/65212187/b692fce2-df31-4374-a8ef-68e6c7e58429)
+![회원 - 마이페이지(상품목록)](https://github.com/kuyejin/project2/assets/65212187/eca570e4-1f63-4379-9500-a22c00d1e0e5)
+![회원 - 마이페이지(상품상세보기)](https://github.com/kuyejin/project2/assets/65212187/ce8e610d-b4ef-41ff-9e3f-07b0b31d3099)
+![회원 - 마이페이지(찜)](https://github.com/kuyejin/project2/assets/65212187/d055f826-fb78-409f-b100-9403112e5799)
+![회원 - 마이페이지(후기1)](https://github.com/kuyejin/project2/assets/65212187/890bdd08-e737-4d9b-aacf-5074fbbebf26)
+![회원 - 마이페이지(후기2)](https://github.com/kuyejin/project2/assets/65212187/20f517ef-1179-4dc8-8ba4-c41662c767ff)
+![회원 - 마이페이지](https://github.com/kuyejin/project2/assets/65212187/d522a0bf-c63b-4f64-a402-0347a9cc1cea)
+![회원_로그인,로그아웃](https://github.com/kuyejin/project2/assets/65212187/6e8f2f7d-2281-447b-98d6-8ea6f99544aa)  
+
+🔹관리자🔹<br/>
+![관리자_게시판관리](https://github.com/kuyejin/project2/assets/65212187/ddb0c10b-f434-4383-bb78-98d885bee1ac)
+![관리자_결제관리](https://github.com/kuyejin/project2/assets/65212187/1cd8293a-d11f-46dc-8564-7272309f4d42)
+![관리자_배송관리](https://github.com/kuyejin/project2/assets/65212187/98165b8d-b234-431d-9ece-949d3e54b453)
+![관리자_상품관리](https://github.com/kuyejin/project2/assets/65212187/e606c54d-cc4a-468e-a0b6-5b03d7626fcc)
+![관리자_상품관리2](https://github.com/kuyejin/project2/assets/65212187/e8bb5047-9b1b-406a-9134-0c13780da461)
+![관리자_주문관리](https://github.com/kuyejin/project2/assets/65212187/4d420552-abb5-4f29-8483-931081457255)
+![관리자_회원관리](https://github.com/kuyejin/project2/assets/65212187/04efffa3-a5b2-4d69-be95-213bfd411165)
+<br/><br/>
 ## 2️⃣ 개념적 설계
 
 ### 🔹유즈케이스 (USE CASE)
